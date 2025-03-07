@@ -1,5 +1,5 @@
 # 🚀 Koywe Challenge Frontend - Marco Antonio Laura
-Frontend para conversión de monedas fiat y criptomonedas en **NextJS**, con autenticación **JWT**.
+Frontend para conversión de monedas fiat y criptomonedas en **NextJS**, con autenticación **JWT** y Tailwind CSS.
 
 ## 1️⃣ Descargar el Proyecto
 ```bash
@@ -16,7 +16,17 @@ npm install
 ```
 ---
 
-## 2️⃣ Inicializar el proyecto
+## 3️⃣ Actualizar la variable de entorno
+Verificar la ruta del backend por defecto esta en el puerto 3000
+Debe levantar el API del servicio: [https://github.com/marcoalaura/koywe-challenge](https://github.com/marcoalaura/koywe-challenge)
+
+```bash
+NEXT_PUBLIC_BACKEND_URL=http://localhost:3000
+```
+
+---
+
+## 4️⃣ Inicializar el proyecto
 
 ```bash
 npm run dev
